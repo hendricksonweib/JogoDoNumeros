@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mario agiota</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <main id="mainGame">
+            <div id="welcomeStart">
+                <h1>Welcome to the game!</h1>
+                <p>do you right now?</p>
+                <div class="choice">
+                   <button class="start" id="yesbtn">Yes</button>
+                   <button class="start" id="nobtn">No</button> 
+                </div>
+            </div>
+            <section>
+                <div id="startGame">
+                    <input class="inputGame" id="name" type="text" placeholder="Digite seu nome">
+                    <img src="https://media4.giphy.com/media/TZnb9yP17Mc9i/giphy.gif" id="gifMario" alt="mario">
+                    <p>Press "yes" to start</p>
+                    <button class="start" id="yesStartBtn">Yes</button>
+                </div>
+            </section>
+            <section id="rules">
+                <h2>Leia as regras!</h2>
+                <img src="https://media.tenor.com/0wlZUmOVqTAAAAAj/mario-super-mario-64.gif" id="gifMario" alt="mario">
+                    <p>Neste jogo, um número aleatório será gerado, e você terá que adivinhá-lo. Se você acertar o número, ganhará um presente misterioso. No entanto, se perder, será necessário depositar 2 reais.</p>
+                    <button class="start" id="StartBtn">Começar</button>
+            </section>
+            <aside>
+                <div id="question">
+                    <h1>Dite um número de 1 a 100</h1>
+                    <input type="number" class="inputGame" id="ValorNUmber" type="text" placeholder="Digite um número">
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

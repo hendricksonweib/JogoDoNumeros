@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url('https://cdn.dribbble.com/users/279765/screenshots/1335470/marioscroll_real_real.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.conteiner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainGame{
+    background-color: rgba(47, 118, 175, 0.638);
+    height: 80vh;
+    width: 150vh;
+    border-radius: 10px;
+    margin: 1rem;
+}
+#welcomeStart{
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 6rem;
+    color: rgb(255, 213, 0);
+    margin-bottom: 20%;
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem; 
+        margin-bottom: 80%; 
+    }
+}
+p{
+    font-size: 25px;
+    color: rgb(255, 213, 0);
+}
+.start{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 213, 0);
+    padding: 0.5rem 2rem;
+    margin-top: 1%;
+}
+#startGame {
+    height: 80vh; 
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.inputGame{
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.485);
+}
+#rules{
+    height: 80vh; 
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    padding: 0 20rem;
+}
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: x-large;
+        padding: 0 8rem;
+    }
+}
+#question{
+    height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+    padding: 0 20rem;
+}
